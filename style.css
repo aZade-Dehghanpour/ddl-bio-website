@@ -32,7 +32,7 @@ html, body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  pading: 5px;
+  padding: 10px;
 }
 .right{
   display: flex;
@@ -49,4 +49,7 @@ html, body {
 }
 p{
   text-align: justify;
+}
+.name{
+  
 }
