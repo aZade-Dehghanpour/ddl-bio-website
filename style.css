@@ -5,7 +5,7 @@ html, body {
   align-items: center;
   justify-content: center;
   height: 100%;
-  margin: 0px;
+  margin: auto;
   padding: 0px;
 }
 
@@ -24,20 +24,20 @@ html, body {
   background-color: gray;
   margin: 5px;
   max-width: 50%;
-  flex: 1;
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  flex-direction: row;
 }
 
 .left {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
+  pading: 5px;
 }
 .right{
   display: flex;
-  flex-direction: space-between;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .profile-picture {
@@ -46,4 +46,7 @@ html, body {
   border-radius:5%;
   margin: auto;
   
+}
+p{
+  text-align: justify;
 }
