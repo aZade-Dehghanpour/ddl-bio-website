@@ -17,35 +17,33 @@ html, body {
   max-width: 90%;
   display: flex;
   flex-direction:row-reverse;
-;
   height: 80%;
 }
 
-.left, .right {
+.columns{
   background-color: gray;
   margin: 5px;
   max-width: 50%;
   flex: 1;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 .left {
-  align-items: center;
-  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 .right{
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  
+  flex-direction: space-between;
 }
 
 .profile-picture {
   border-style: solid;
-  border-color: black;
+  border-color: white;
   border-radius:5%;
-  
+  margin: auto;
   
 }
