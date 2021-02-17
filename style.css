@@ -11,6 +11,13 @@ html, body {
 .name{
  
   font-size: 20px;
+  line-height:2px;
+  margin: auto;
+}
+.subtitle{
+  font-size: 15px;
+  line-height:-2px;
+  
 }
 
 .main-frame{
@@ -39,10 +46,29 @@ html, body {
   border-style: solid;
   border-color: white;
   border-radius:5%;
-  
-  
+  margin: 10px;
 }
 p{
   text-align: justify;
   margin: 10px;
+}
+
+.social-links {
+  list-style: none;
+  padding-left: 0px;
+  font-size: 18px;
+}
+
+.social-links li {
+  display: inline-block;
+  margin-right: 8px;
+}
+
+.social-links a {
+  text-decoration: none;
+  padding: 10px;
+}
+
+.social-links a:hover {
+  background-color: rgba(0, 0, 0, 0.1);
 }
