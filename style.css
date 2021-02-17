@@ -44,6 +44,7 @@ html, body {
   flex-direction: column;
   justify-content: center;
 }
+
 .right{
   background-color: gray;
   margin: 5px;
@@ -52,16 +53,8 @@ html, body {
   flex-direction: column;
   justify-content: center;
 }
-.columns{
-  background-color: gray;
-  margin: 5px;
-  max-width: 90%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
 
-.profile-picture {
+.profile-picture{
   border-style: solid;
   border-color: white;
   border-radius:5%;
