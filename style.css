@@ -18,7 +18,6 @@ html, body {
 }
 .subtitle{
   font-size: 15px;
-  line-height:-2px;
   margin: 15px;
   color: white;
   
@@ -37,21 +36,37 @@ html, body {
   
 }
 
-.columns{
+.left{
   background-color: gray;
   margin: 5px;
-  max-width: 50%;
+  max-width: 90%;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
-
+.right{
+  background-color: gray;
+  margin: 5px;
+  max-width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.columns{
+  background-color: gray;
+  margin: 5px;
+  max-width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 
 .profile-picture {
   border-style: solid;
   border-color: white;
   border-radius:5%;
   margin: 10px;
+  
 }
 p{
   text-align: justify;
