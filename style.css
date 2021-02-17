@@ -6,6 +6,19 @@ body {
 }
 
 h1 {
-  font-style: italic;
-  color: #373fff;
+  
+  color: black;
+  line-height: 8px;
+  font-size: 24px;
+  text-align: center;
+  
+}
+.bio{
+      text-align: justify;
+    
+    }
+.profile-picture{
+  border-style: solid;
+  border-color: gray;
+  
 }
