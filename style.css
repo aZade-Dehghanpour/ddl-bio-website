@@ -8,16 +8,21 @@ html, body {
   margin: auto;
   padding: 0px;
 }
+.name{
+ 
+  font-size: 20px;
+}
 
-.wrapper {
+.main-frame{
+  display: flex;
+  flex-direction:row-reverse;
+  max-width: 90%;
+  height: 80%;
   border-style: solid;
   border-color: black;
   border-weight: 5px;
   background-color: white;
-  max-width: 90%;
-  display: flex;
-  flex-direction:row-reverse;
-  height: 80%;
+  
 }
 
 .columns{
@@ -25,31 +30,19 @@ html, body {
   margin: 5px;
   max-width: 50%;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  justify-content: center;
 }
 
-.left {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding: 10px;
-}
-.right{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
 
 .profile-picture {
   border-style: solid;
   border-color: white;
   border-radius:5%;
-  margin: auto;
+  
   
 }
 p{
   text-align: justify;
-}
-.name{
-  
+  margin: 10px;
 }
