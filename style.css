@@ -52,7 +52,7 @@ html, body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  position: relative;
+  
   
 }
 
@@ -61,7 +61,7 @@ html, body {
   border-color: white;
   border-radius:5%;
   margin: 10px;
-  position: relative;
+  height-max:
   
   
 }
