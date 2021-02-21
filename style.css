@@ -47,11 +47,13 @@ html, body {
 
 .right{
   background-color: gray;
-  margin: 5px;
+  margin;
+  margin-bottom: 5px;
   max-width: 90%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: start;
+  align-items: flex-start;
   
   
 }
@@ -61,7 +63,7 @@ html, body {
   border-color: white;
   border-radius:5%;
   margin: 10px;
-  heigt:auto;
+  height:auto;
   
   
 }
